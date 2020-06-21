@@ -18,4 +18,14 @@
 .card:hover{
     background-color: lightgreen;
 }
+.main-h2{
+    text-align: center;
+    color: goldenrod;
+    text-decoration: none;
+    text-indent: 50px;
+    
+}
+.main-h2:hover{
+    color: black;
+}
 

@@ -13,7 +13,7 @@ class Summary extends React.Component {
 
         return (
             <React.Fragment>
-                <h1 className="main-h1">Made By:Muhammad Basil</h1>
+                <h1 className="main-h2">Made By:Muhammad Basil</h1>
 
                 <h1 className="main-h1">Global Statistics(<span>{new Date(currentDate).toDateString()}</span>)</h1>
 
