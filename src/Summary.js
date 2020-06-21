@@ -13,9 +13,16 @@ class Summary extends React.Component {
 
         return (
             <React.Fragment>
+                <div>
+                
+                <img  src="https://imageog.flaticon.com/icons/png/512/2785/2785819.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="covid"/>
+                <img className="img2" src="https://seeklogo.net/wp-content/uploads/2014/11/who-logo-vector.png" alt="who"/>
+                <h1 className="main-h3">Covid-19 Tracker</h1>
                 <h1 className="main-h2">Made By:Muhammad Basil</h1>
 
                 <h1 className="main-h1">Global Statistics(<span>{new Date(currentDate).toDateString()}</span>)</h1>
+                </div>
+
 
                 <div className="card" style={{ width: "18rem" }}>
                     <div className="card-body">
@@ -45,7 +52,7 @@ class Summary extends React.Component {
 
                     </div>
                 </div>
-                <h1 className="main-h1">Pakistan Statistics(<span>{new Date(currentDate).toLocaleDateString()}</span>)</h1>
+                <h1 className="main-h4">Pakistan Statistics(<span>{new Date(currentDate).toLocaleDateString()}</span>)</h1>
                 <div className="card" style={{ width: "18rem" }}>
                     <div className="card-body">
                         <h3>New Cases:</h3>
