@@ -1,0 +1,21 @@
+.main-h1{
+    text-align: center;
+    color: lightseagreen;
+    text-decoration: none;
+    text-indent: 50px;
+    
+}
+.main-h1:hover{
+    color: black;
+}
+
+.card{
+    border-radius: 3%;
+    border-color: blueviolet;
+   display: inline-block;
+   margin: 2%;
+}
+.card:hover{
+    background-color: lightgreen;
+}
+
